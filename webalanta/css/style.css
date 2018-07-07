@@ -288,3 +288,173 @@ footer {
 .servicio button {
   grid-area: boton;
 }
+
+@media (min-width:480px) {
+  .jumbotron p {
+    width: 60%;
+  }
+  .servicio h3 {
+    font-size: 1.5em;
+  }
+  .servicio img {
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+  }
+  .servicio p {
+    font-size: 1em;
+  }
+  .educacion h3 {
+    margin-left: 70px;
+  }
+  .educacion p {
+    margin-left: 70px;
+  }
+  .educacion button {
+    margin-left: 120px;
+  }
+}
+
+@media (min-width:720px) {
+  main {
+    grid-template-areas: 
+    "header header"
+    "jumbotron jumbotron"
+    "servicio-izq servicio-cen"
+    "servicio-der educacion"
+    "footer footer"
+    "escribenos escribenos";
+  }
+  header {
+    height: 80px;
+  }
+  header .logo {
+    width: 70px;
+    height: 70px;
+  }
+  header .titulo {
+    font-size: 2em;
+    left: 100px;
+  }
+  header .mostrar-menu {
+    font-size: 2em;
+    height: 40px;
+    right: 25px;
+    top: 20px;
+    width: 50px;
+  }
+  .jumbotron h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-top: 30px;
+  }
+  .jumbotron p{
+    font-size: 1.2em;
+  }
+  .educacion {
+    height: 100%;
+    background-size: 100% 100%;
+  }
+  .educacion h3 {
+    font-size: 1.4em;
+    margin-left: 20px;
+  }
+  .educacion p {
+    margin-left: 30px;
+  }
+  .educacion button {
+    margin-left: 70px;
+  }
+}
+
+@media (min-width:1024px) {
+  main {
+    grid-template-areas: 
+    "header header header"
+    "jumbotron jumbotron jumbotron"
+    "servicio-izq servicio-cen servicio-der"
+    "educacion footer footer"
+    "escribenos escribenos escribenos";
+  }
+  header {
+    height: 80px;
+  }
+  header .logo {
+    width: 70px;
+    height: 70px;
+  }
+  header .titulo {
+    font-size: 2em;
+    left: 100px;
+  }
+  header .mostrar-menu {
+    font-size: 2em;
+    height: 40px;
+    right: 25px;
+    top: 20px;
+    width: 50px;
+  }
+  .jumbotron {
+    background-size: 100% 500px;
+    height: 500px;
+  }
+  .jumbotron h2 {
+    font-size: 3em;
+    font-weight: 1500;
+    margin-top: 50px;
+  }
+  .jumbotron p{
+    font-size: 1.8em;
+    margin-top: 60px;
+    padding: 30px;
+  }
+  .jumbotron button {
+    font-size: 2em;
+    padding: -10px;
+  }
+  .servicio h3 {
+    font-size: 1.2em;
+  }
+  .servicio img {
+    width: 64px;
+    height: 64px;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  .educacion {
+    height: 100%;
+    background-size: 100% 100%;
+  }
+  .educacion h3 {
+    font-size: 1.2em;
+    margin-left: 20px;
+  }
+  .educacion p {
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  .educacion button {
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    grid-template-areas: 
+    "header header header"
+    "jumbotron jumbotron jumbotron"
+    "servicio-izq servicio-cen servicio-der"
+    "educacion escribenos escribenos"
+    "footer escribenos escribenos";
+  }
+  .educacion h3 {
+    margin-top: 80px;
+  }
+  footer p {
+    margin-top: 80px;
+  }
+  .escribenos h3 {
+    font-size: 2em;
+  }
+}
