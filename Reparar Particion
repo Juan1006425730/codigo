@@ -1,0 +1,4 @@
+Comando para reparar particion
+sudo ntfsfix /dev/sdXY
+
+XY = a5 => sda5

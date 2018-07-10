@@ -97,6 +97,9 @@ header .mostrar-menu {
   font-size: .7em;
   margin: 20px;
 }
+.servicio a {
+  outline: 1px solid red;
+}
 .servicio button {
   background: white;
   border: 2px solid;
